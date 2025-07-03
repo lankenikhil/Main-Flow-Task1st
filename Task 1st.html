@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<title>Farmers Market</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>/* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 10px 0;
+        }
+        
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: url('farm.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .hero .btn {
+            background: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        /* Products Section */
+        .products {
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .products h2 {
+            margin-bottom: 20px;
+        }
+        
+        .product-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .product {
+            background: #f4f4f4;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        
+        .product h3 {
+            margin: 10px 0;
+        }
+        
+        .product p {
+            margin: 10px 0;
+        }
+        
+        .product button {
+            background: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .product button:hover {
+            background: #45a049;
+        }
+        
+        /* About Section */
+        .about {
+            background: #f4f4f4;
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .about h2 {
+            margin-bottom: 20px;
+        }
+        
+        /* Contact Section */
+        .contact {
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+        
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .contact form label {
+            margin: 10px 0 5px;
+        }
+        
+        .contact form input, .contact form textarea {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .contact form button {
+            background: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .contact form button:hover {
+            background: #45a049;
+        }
+        
+        /* Footer Styles */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+        
+        footer p {
+            margin: 0;
+        }</style>
+    <header>
+        <div class="container">
+            <h1>Farmers Market</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 align=center>Welcome to Farmers Market</h1>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Fresh Vegetables Direct from the Farm</h2>
+            <p>Buy fresh and organic vegetables directly from local farmers.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="C:\Users\Dattatray\Downloads\download.jpeg" alt="Tomato">
+                    <h3>Tomato</h3>
+                    <p>40r per kg</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Dattatray\Downloads\carrot.jpeg" alt="Carrot">
+                    <h3>Carrot</h3>
+                    <p>50r per kg</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Dattatray\Downloads\potato.jpeg" alt="Potato">
+                    <h3>Potato</h3>
+                    <p>25r per kg</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Dattatray\Downloads\onion.jpeg" alt="Onion">
+                    <h3>Onion</h3>
+                    <p>70r per kg</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="C:\Users\Dattatray\Downloads\Brinjal.jpeg" alt="Brinjal">
+                    <h3>Brinjal</h3>
+                    <p>34r per kg</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a group of local farmers dedicated to providing the freshest and most organic vegetables to our community. Our mission is to support sustainable farming practices and promote healthy living.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to place an order, please reach out to us:</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="Phone No">Phone No:</label>
+                <input type="int" id="no" name="No" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Farmers Market. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
